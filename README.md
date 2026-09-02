@@ -36,29 +36,19 @@ OUTPUT "Keliling lingkaran = ", Keliling
 END
 
 📊 Flowchart
-%%{init: {
-  "themeVariables": {
-    "fontSize": "12px"
-  },
-  "flowchart": {
-    "nodeSpacing": 15,
-    "rankSpacing": 20,
-    "padding": 8
-  }
-}}%%
-
 flowchart TD
     A([START]) --> B[/INPUT jari-jari r/]
-    B --> C[/PROSES<br/>Luas = π × r × r<br/>Keliling = 2 × π × r/]
-    C --> D[/OUTPUT<br/>"Luas lingkaran = ", Luas<br/>"Keliling lingkaran = ", Keliling/]
-    D --> E([END])
+    B --> C[PROSES: Luas = pi x r x r]
+    C --> D[PROSES: Keliling = 2 x pi x r]
+    D --> E[/OUTPUT: Luas dan Keliling/]
+    E --> F([END])
 
-    style A fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style C fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
-    style D fill:#e0e7ff,stroke:#4f46e5,stroke-width:2px,color:#312e81
-    style E fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-
+    style A fill:#dbeafe,stroke:#2563eb,stroke-width:2px
+    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+    style C fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style D fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style E fill:#e0e7ff,stroke:#4f46e5,stroke-width:2px
+    style F fill:#dbeafe,stroke:#2563eb,stroke-width:2px
 🧪 Test Case
 
 Test Case| Input Jari-jari| Luas| Keliling
