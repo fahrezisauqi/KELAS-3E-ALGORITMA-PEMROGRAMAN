@@ -76,8 +76,12 @@ print("Keliling lingkaran =", keliling)
 
 Program diuji menggunakan dua nilai jari-jari, yaitu 7 cm dan 14 cm. Hasil yang diperoleh sesuai dengan perhitungan matematika yang diharapkan, yaitu:
 
-<img width="752" height="164" alt="WhatsApp Image 2026-09-02 at 12 03 49" src="https://github.com/user-attachments/assets/229e7df4-ebe4-4855-a469-4b1af0ec9302" />
-
-
 - Untuk jari-jari 7 cm, luas = 154 cm² dan keliling = 44 cm.
+
+  <img width="752" height="164" alt="WhatsApp Image 2026-09-02 at 12 03 49" src="https://github.com/user-attachments/assets/229e7df4-ebe4-4855-a469-4b1af0ec9302" />
+
+
 - Untuk jari-jari 14 cm, luas = 616 cm² dan keliling = 88 cm.
+
+- <img width="736" height="168" alt="WhatsApp Image 2026-09-02 at 12 10 36" src="https://github.com/user-attachments/assets/3fba1cd5-643d-4353-a8b7-d0e0723a7899" />
+
