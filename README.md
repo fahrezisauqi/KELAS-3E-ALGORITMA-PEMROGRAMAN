@@ -36,19 +36,21 @@ OUTPUT "Keliling lingkaran = ", Keliling
 END
 
 📊 Flowchart
+```mermaid
 flowchart TD
     A([START]) --> B[/INPUT jari-jari r/]
-    B --> C[PROSES: Luas = pi x r x r]
-    C --> D[PROSES: Keliling = 2 x pi x r]
-    D --> E[/OUTPUT: Luas dan Keliling/]
+    B --> C[Luas = π × r × r]
+    C --> D[Keliling = 2 × π × r]
+    D --> E[/OUTPUT Luas dan Keliling/]
     E --> F([END])
 
-    style A fill:#dbeafe,stroke:#2563eb,stroke-width:2px
-    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px
-    style C fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style D fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style E fill:#e0e7ff,stroke:#4f46e5,stroke-width:2px
-    style F fill:#dbeafe,stroke:#2563eb,stroke-width:2px
+    style A fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style C fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
+    style D fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
+    style E fill:#e0e7ff,stroke:#4f46e5,stroke-width:2px,color:#312e81
+    style F fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+```
 🧪 Test Case
 
 Test Case| Input Jari-jari| Luas| Keliling
