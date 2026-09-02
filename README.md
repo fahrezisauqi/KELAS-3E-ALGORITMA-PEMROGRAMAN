@@ -36,20 +36,28 @@ OUTPUT "Keliling lingkaran = ", Keliling
 END
 
 📊 Flowchart
+%%{init: {
+  "themeVariables": {
+    "fontSize": "12px"
+  },
+  "flowchart": {
+    "nodeSpacing": 15,
+    "rankSpacing": 20,
+    "padding": 8
+  }
+}}%%
 
-Alur program:
+flowchart TD
+    A([START]) --> B[/INPUT jari-jari r/]
+    B --> C[/PROSES<br/>Luas = π × r × r<br/>Keliling = 2 × π × r/]
+    C --> D[/OUTPUT<br/>"Luas lingkaran = ", Luas<br/>"Keliling lingkaran = ", Keliling/]
+    D --> E([END])
 
-START
-↓
-INPUT jari-jari (r)
-↓
-Hitung luas = π × r × r
-↓
-Hitung keliling = 2 × π × r
-↓
-OUTPUT luas dan keliling
-↓
-END
+    style A fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style C fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
+    style D fill:#e0e7ff,stroke:#4f46e5,stroke-width:2px,color:#312e81
+    style E fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
 
 🧪 Test Case
 
